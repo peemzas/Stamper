@@ -1,0 +1,257 @@
+@media screen and (max-width:480px){
+	body{
+		width: 100%;
+	}
+	#header{
+		height: 50px;
+	}
+	#topimg{
+		height: 40px;
+		margin-left:200px;
+	}
+	img{
+		width: 80px;
+		height: 95px;
+		float: left;
+	}
+	.leftbtn{
+		padding: 30px 79.5px 30px 79.5px;
+		border-right: 1px solid #d5d5d5;
+		border-bottom: 1px solid #d5d5d5;
+	}
+	.rightbtn{
+		padding: 30px 79.5px 30px 79.5px;
+		border-bottom: 1px solid #d5d5d5;
+	}
+	#logo_rests{
+	float: left;
+	width: 120px;
+	padding-right: 2px;
+	}
+	.logo_size{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+	#showrest{
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+	}
+	#info_rest{
+		float: left;
+		width: 280px;
+		padding-right: 2px;
+	}
+	#point_rest{
+		float: left;
+		width: 60px;
+	}
+	/*----------profile--------------*/
+	#total_stamp{
+		width: 50%;
+	}
+	#profilePane{
+		width: 100%;
+	}
+
+
+}
+@media screen and (max-width:1366px){
+	#header{
+		height: 50px;
+	}
+	#topimg{
+		height: 40px;
+		margin-left:200px;
+	}
+	img{
+		width: 80px;
+		height: 95px;
+		float: left;
+	}
+	.leftbtn{
+		padding: 30px 79.5px 30px 79.5px;
+		border-right: 1px solid #d5d5d5;
+		border-bottom: 1px solid #d5d5d5;
+	}
+	.rightbtn{
+		padding: 30px 79.5px 30px 79.5px;
+		border-bottom: 1px solid #d5d5d5;
+	}
+	#logo_rests{
+	float: left;
+	width: 120px;
+	padding-right: 2px;
+	}
+	#info_rest{
+		float: left;
+		width: 280px;
+		padding-right: 2px;
+	}
+	#point_rest{
+		float: left;
+		width: 60px;
+	}
+		#total_stamp{
+			width: 50%;
+	}
+
+}
+@font-face{
+	font-family: Ostrich;
+	src:url('fonts/ostrich-regular.ttf');
+}
+body{
+	font-family:sans-serif;
+	margin: 0;
+	background-color: #f3f3f3;
+}
+#header{
+	margin: 0 auto;
+	background-color: #6cc8a5;
+}
+h1{
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 300;
+	text-align: center;
+}
+table{
+	color: #6cc8a5;
+}
+thead{
+	background-color: #fff;
+	color: 
+}
+.gifttable{
+	width: 100%;
+}
+.gifttable img{
+	width: 380px;
+	height: 120px;
+	cursor: pointer;
+}
+.gifttable tr td{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+/*-------------profilepage.html-------------*/
+#profile_pic{
+	position: relative;
+}
+#profile_pic img{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-top: 60px;
+}
+#profile_pic p{
+	font-size: 20px;
+}
+#tab{
+	position: relative;
+	padding: 10px;
+	background-color: #fff;
+	height: 50px;
+}
+.text_top{
+	font-size: 25px;
+	text-align: center;
+	margin: 0em;
+}
+.text_bottom{
+	font-size: 18px;
+	color: #aaa;
+	text-align: center;
+	margin: 0em;
+
+}
+#profilePane{
+	font-family: Arial;
+}
+#total_stamp{
+	float: left;
+	border-right: 1px dashed #ccc;
+}
+#icon{
+	width: 20px;
+	height: 20px;
+	filter:invert(90%);
+	-webkit-filter: invert(70%);
+	padding-right: 5px;
+	vertical-align: middle;
+}
+#badgeHeader{
+	color: #aaa;
+	margin: 0em;
+	font-size: 14px;
+
+}
+#achievement{
+	padding:10px;
+}
+
+#getBadge{
+	margin:10px 0px 5px 20px;
+}
+
+.badge{
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+#information{
+	padding:10px;
+}
+#infoHeader{
+	color: #aaa;
+	margin: 0em;
+	font-size: 14px;
+}
+#menutab{
+	position: absolute;
+	top:-5;
+}
+#menu_dot{
+	width: 44px;
+	-webkit-filter:invert(100%);
+	cursor: pointer;
+}
+#signouttab{
+	position: absolute;
+	top:3;
+	right: 0;
+}
+#signout{
+	cursor: pointer;
+	width: 44px;
+	-webkit-filter:invert(100%);
+}
+#photoupload{
+	position: absolute;
+	top:80;
+	left:230;
+	cursor:pointer;
+}
+#photoup{
+	cursor: pointer;
+	width: 55px;
+	-webkit-filter:invert(100%);
+	
+}
+#photoup:active{
+	-webkit-filter:invert(50%);
+}
+#aboutPane{
+	text-align: center;
+	color: #aaa;
+}
+#aboutbrand{
+	width: 300px;
+	height: 300px;
+}
+.versiontext{
+	font-size: 10px;
+}
